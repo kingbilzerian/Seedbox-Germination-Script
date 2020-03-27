@@ -21,4 +21,4 @@ This script collects all magnet links on a specified web page and populates your
   python3 germination.py
   ```
 ## To Do
-1. Create workaround for windows:urllib.error.HTTPError: HTTP Error 403: Forbidden
+1. Create workaround for windows 10: urllib.error.HTTPError: HTTP Error 403: Forbidden
