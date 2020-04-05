@@ -1,7 +1,7 @@
 # Seed Box Germination Script
 This script collects all magnet links on a specified web page and populates your torrent client with the collected magnets. I created this script as a quick means to populate remote machines dedicated for seeding torrents.
 
-## Running The Script
+## Running The Script (Debian, Fedora, Arch, Windows 7)
 1. Clone the repository.
   ```
   git clone https://github.com/FTN806/Seedbox-Germination-Script.git
@@ -10,7 +10,7 @@ This script collects all magnet links on a specified web page and populates your
   ```
   cd Seedbox-Germination-Script
   ```
-3. Run the install script or install the prerequisites manually (pip3 install validators pyquery).
+3. Run the install script (Debian, Fedora, Arch) or install the prerequisites manually (pip3 install validators pyquery).
   ```
   ./install.sh
   ```
