@@ -1,7 +1,9 @@
 import pyquery, os, sys, validators, subprocess
 
+
 def main():
 	add_to_client(confirm_magnets(get_url()))
+
 
 #Gets url from user
 def get_url():
@@ -9,6 +11,7 @@ def get_url():
 	while validators.url(url) != True:
 		url = input("\nInvalid url. Please enter a valid url i.e. \"https://google.com\": ").strip()
 	return url
+
 
 #Confirms that the provided url contains magnets
 def confirm_magnets(url):
@@ -22,6 +25,7 @@ def confirm_magnets(url):
 		quit("\nNo magnets found. Exiting...")
 	return confirmed
 
+
 #Adds magnet links to system's default torrent client
 def add_to_client(magnets):
 	for i in magnets:
@@ -29,5 +33,6 @@ def add_to_client(magnets):
 			os.system("xdg-open " + i)
 		elif sys.platform.startswith('win32'): #Windows
 			os.startfile(i)
+
 
 main()
