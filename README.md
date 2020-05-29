@@ -4,7 +4,7 @@ This script collects all magnet links on a specified web page and populates your
 ## Running The Script (Debian, Fedora, Arch)
 1. Clone the repository.
   ```
-  git clone https://github.com/FTN806/Seedbox-Germination-Script.git
+  git clone https://gitlab.com/FTN806/Seedbox-Germination-Script.git
   ```
 2. Change working directory.
   ```
