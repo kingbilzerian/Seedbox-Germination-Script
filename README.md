@@ -21,3 +21,5 @@ This script collects all magnet links on a specified web page and populates your
   ```
   python3 germination.py
   ```
+##To Do
+Rewrite this in Go.
