@@ -5,7 +5,7 @@ def main():
 	add_to_client(confirm_magnets(get_url()))
 
 
-#Gets url from user
+#Gets valid url from user
 def get_url():
 	url = input("\nCopy and paste a url to scrape magnets from: ").strip()
 	while validators.url(url) != True:
@@ -13,7 +13,7 @@ def get_url():
 	return url
 
 
-#Confirms that the provided url contains magnets
+#Confirms that the provided url contains magnets and appends to confirmed magnet list
 def confirm_magnets(url):
 	pq = pyquery.PyQuery(url)
 	confirmed = list()
