@@ -1,5 +1,5 @@
 # Seed Box Germination Script
-This script collects all magnet links on a specified web page and populates your torrent client with the collected magnets. I created this script as a quick means to populate remote machines dedicated for seeding torrents.
+This script collects all magnet links on a specified web page and populates your default torrent client with the collected magnets. I created this script as a quick means to populate remote machines dedicated for seeding torrents.
 
 ## Running The Script (Debian, Fedora, Arch)
 1. Clone the repository.
